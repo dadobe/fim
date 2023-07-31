@@ -91,9 +91,9 @@ Step 1: Save the Script in a file with a .py extension. For example, I saved it 
 
 Step 2: Open the Terminal or command prompt on your computer. Ensure that you are in the directory where you saved the script.
 
-Step 3: Run the Script using the following command:
-Windows -> python fim.py
-MacOS / Linux -> python3 fim.py
+Step 3: Run the Script using the following command:  
+Windows -> python fim.py  
+MacOS / Linux -> python3 fim.py  
 
 Step 4: Observe the Output. The script will start running and continuously monitor the file specified in the monitored_file variable (I set the timer on 15 seconds refresh). It will check the file's integrity periodically and display messages indicating whether the integrity check passed or if a violation was detected.
 
