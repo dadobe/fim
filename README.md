@@ -99,3 +99,25 @@ Step 4: Observe the Output. The script will start running and continuously monit
 
 You can leave the terminal running to maintain the monitoring process.
 To stop the monitoring press Ctrl + C to interrupt the script.
+
+## Visual example
+
+Let's take a look on how this scnerio work. On next image you will see how the "baseline.txt" file still does not exist.
+
+![image1](image1.png)
+
+First we launch the script. As you can see the "baseline.txt" file is created, storing inside a HASHED information.
+
+![image2](image2.png)
+
+After the script is executed, it checks every 15 seconds if any changes have been done on the "users.txt" file. Let's change the user OSKAR to JUAN and see if we get notified.
+
+![image3](image3.png)
+
+Note: during the test I decided to add the tes file in a test folder to keep a clearer structurer.
+
+So as you can see, a FIM is a really cool feature if you want to have a digital watchdog that keeps an eye on your files and folders.
+
+## What now?
+
+The idea is to improve this script to make it a bit more sofisticated something like sending out an email when a file integrity violation is detected.
